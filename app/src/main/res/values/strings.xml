@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Tarea semana 2</string>
+    <string name="NombreC">Nombre completo</string>
+    <string name="Telefono">Telefono</string>
+    <string name="Email">Email</string>
+    <string name="DescContacto">Descripción de contacto</string>
+    <string name="btnSig">Siguiente</string>
+    <string name="conFir">Confirmar Datos</string>
+    <string name="fecha">Fecha nacimiento: </string>
+    <string name="telTv">Tel: </string>
+    <string name="emailTv">Email: </string>
+    <string name="DesTv">Descripción: </string>
+    <string name="btnEditar">Editar Datos</string>
+    <string name="kNombreC">kNombreC</string>
+    <string name="kTelefono">kTelefono</string>
+    <string name="kDate">kDate</string>
+    <string name="kEmail">kEmail</string>
+    <string name="kDescrC">kDescrC</string>
+
+</resources>

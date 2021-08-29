@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textoEditar">30dp</dimen>
+    <dimen name="textoPrincipal">18dp</dimen>
+    <dimen name="paddingDatos">5dp</dimen>
+</resources>

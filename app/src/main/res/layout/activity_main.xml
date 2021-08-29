@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+
+        tools:context=".MainActivity"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:paddingTop="40dp"
+        android:paddingBottom="40dp"
+        android:gravity="center_horizontal"
+        tools:layout_editor_absoluteY="1dp">
+
+    <EditText
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/NombreC"
+        android:inputType="text"
+        android:id="@+id/edtNombreCompleto"
+        />
+
+    <DatePicker android:datePickerMode="spinner"
+        android:calendarViewShown="false"
+        android:id="@+id/dtFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:textSize="20dp"
+        android:id="@+id/edtTelefono"
+        android:layout_marginTop="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Telefono"
+        android:inputType="phone"
+        />
+    <EditText
+        android:id="@+id/edtEmail"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Email"
+        android:inputType="textEmailAddress"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/DescContacto" android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/edtDescripcion"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textImeMultiLine"
+        />
+        <Button
+            android:id="@+id/btnSiguiente"
+            android:textSize="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnSig"/>
+    </LinearLayout>
+    </ScrollView>
